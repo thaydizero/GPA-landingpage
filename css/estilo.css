@@ -1,0 +1,350 @@
+.backgroundPagina {
+    background-color: rosybrown;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.video-border {
+    background-color: rgb(200 136 17);
+    color: black;
+}
+
+.border1 {
+    background-color: #000000;
+    color: white;
+}
+
+.text-margin {
+    border: 1px solid transparent;
+    border-image: linear-gradient(45deg, rgb(200, 136, 17), #00f);
+    border-image-slice: 1;
+    border-radius: 12px;
+    padding: 50px;
+    margin: 2rem;
+}
+
+.margin {
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
+
+.margin-logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.video-margin {
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
+
+.font-titulo {
+    color: rgb(200, 136, 17);
+}
+
+.border2 {
+    border-radius: 12px;
+    padding: 50px;
+    margin: 6rem;
+    left: 50px;
+}
+
+.home_text1 {
+    margin-top: 10px;
+    font-size: 35px;
+    background: rgb(255, 255, 255);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home_text2 {
+    font-size: 35px;
+    background: rgb(200, 136, 17);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home_text3 {
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ideal {
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home_text4 {
+    font-size: 27px;
+    background: rgb(200, 136, 17);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home_text5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text_moeda {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-cadastro {
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-color: rgb(200, 136, 17);
+}
+
+.btn-acelerar {
+    padding: 10px 30px;
+    border-radius: 70px;
+    background-color: rgb(200, 136, 17);
+    font-size: 20px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-cadastro1 {
+    padding: 10px 100px;
+    border-radius: 30px;
+    background-color: rgb(200, 136, 17);
+    font-size: 20px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-queroM {
+    padding: 10px 250px;
+    border-radius: 10px;
+    background-color: rgb(200, 136, 17);
+    font-size: 20px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    width: 50%;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+figcaption {
+    font: 120% sans-serif;
+    text-align: center;
+}
+
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+}
+
+.boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.steps.template-erico .list-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.steps.template-erico .container {
+    z-index: 1;
+    text-align: center;
+}
+
+.steps.template-erico {
+    padding: 50px 0;
+    position: relative;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+.marginButton {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.efeito {
+    border: none;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito-1 {
+    background-color: rgba(200, 136, 17);
+    padding: 20px 100px;
+}
+
+.efeito-1:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;
+    background: rgb(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+.efeito-1:hover::before {
+    width: 100%;
+}
+
+/*Rotatividade das moedas de pocker*/
+
+.alinhamentoLeft {
+    text-align: left;
+}
+
+.alinhamentoRight {
+    text-align: right;
+}
+
+.pocker {
+    display: flex;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    animation: flip 1s alternate infinite ease-in-out;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateZ(-20deg);
+    }
+    100% {
+        transform: rotateZ(20deg);
+    }
+}
+
+/**/
+
+.marginLogo {
+    display: inline-block;
+}
+
+.textoCadastro {
+    margin: 20% 80px 0px 50px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+input {
+    align-items: center;
+    width: 90%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/*efeito zoom */
+
+.zoom {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    animation: flipi 1s alternate infinite ease-in-out;
+}
+
+@keyframes flipi {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+/**/
+
+/* giro 360 graus*/
+
+.giro {
+    text-align: center;
+    transform-style: preserve-3d;
+    animation: flip2 2.5s alternate infinite ease-in-out;
+}
+
+@keyframes flip2 {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/**/
+
+/*efeito neon*/
+
+.fontNeon {
+    animation-duration: 2s;
+    animation-name: cor_neon;
+    animation-iteration-count: infinite;
+    color: rgba(200, 136, 17);
+    ;
+}
+
+@keyframes cor_neon {
+    50% {
+        text-shadow: 0px 0px 10px;
+    }
+}

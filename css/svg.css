@@ -1,0 +1,113 @@
+.reasons.template-henrique {
+    font-family: "Lato", sans-serif;
+    background-position: center 0;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.reasons.template-henrique .title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #444b56;
+}
+
+.reasons.template-henrique .list {
+    text-align: left;
+    margin: -20px 0 0;
+    padding: 0;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.reasons.template-henrique .list:before, .reasons.template-henrique .list:after {
+    content: "";
+    display: table;
+}
+
+.reasons.template-henrique .list:after {
+    clear: both;
+}
+
+.reasons.template-henrique .list li {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.kp-modular-content .reasons.template-henrique .list li {
+    padding: 20px;
+    margin: -20px -20px 25px;
+}
+
+.reasons.template-henrique .list li .ico {
+    flex: none !important;
+    width: 32px;
+    min-width: 20px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.reasons.template-henrique .list li .ico svg {
+    width: 100%;
+    height: 100%;
+}
+
+.reasons.template-henrique .list li .ico img {
+    max-width: 100%;
+}
+
+.reasons.template-henrique .list li .txt {
+    font-size: 24px;
+    color: #666666;
+}
+
+.reasons.template-henrique .form-content {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.reasons.template-henrique .general-input {
+    font-weight: normal;
+}
+
+.reasons.template-henrique .general-button {
+    padding: 25px;
+    color: #fff;
+    max-width: 100%;
+    width: 1000px;
+    -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.19);
+    background-color: #e7aa27;
+}
+
+.reasons.template-henrique .general-button:hover {
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.19);
+    top: 2px;
+    opacity: 0.95;
+}
+
+@media (max-width:767px) {
+    .reasons.template-henrique .title {
+        margin-bottom: 25px;
+    }
+    .reasons.template-henrique .list li {
+        float: none !important;
+        width: 100% !important;
+        min-height: 0;
+        margin-bottom: 40px;
+    }
+    .reasons.template-henrique .title, .reasons.template-henrique .title span, .reasons.template-henrique .title font {
+        font-size: 28px !important;
+        line-height: 1.2 !important;
+    }
+    .reasons.template-henrique .list li .txt span, .reasons.template-henrique .list li .txt font, .reasons.template-henrique .list li .txt, .reasons.template-henrique .general-button, .reasons.template-henrique .general-button span, .reasons.template-henrique .general-button font {
+        font-size: 18px !important;
+        line-height: 1.4 !important;
+    }
+}
